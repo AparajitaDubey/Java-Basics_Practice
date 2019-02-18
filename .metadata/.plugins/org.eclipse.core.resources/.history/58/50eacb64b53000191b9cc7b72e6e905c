@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class RemoveCharFrmStrng {
+
+	public static void main(String[] args) {
+		
+		Scanner in = new Scanner(System.in);
+		String str = in.next();
+		
+		char[] charArr = str.toCharArray();
+		
+		System.out.println(charArr);
+	}
+
+}

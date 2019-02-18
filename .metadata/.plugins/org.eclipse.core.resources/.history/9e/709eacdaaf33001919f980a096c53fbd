@@ -1,0 +1,15 @@
+package arrays;
+
+public class PrintArray {
+
+	public static void main(String[] args) {
+		
+		int arr[][] = {{1,1,1,0,0,0},{0,1,0,0,0,0},{1,1,1,0,0,0},{0,0,0,0,0,0},{0,0,0,0,0,0},{0,0,0,0,0,0}};
+		int len = arr.length;
+		System.out.println(len);
+		
+		
+		}
+	}
+
+}

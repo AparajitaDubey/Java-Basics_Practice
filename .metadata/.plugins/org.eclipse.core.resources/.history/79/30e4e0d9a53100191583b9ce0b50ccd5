@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class CountNoOfDigitsinInt {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.println(" Enter integer : ");
+		int num = in.nextInt();
+		
+		char[] ch = ("" + num).toCharArray();
+		
+		int len =ch.length;
+		
+		System.out.println(len);
+
+	}
+
+}

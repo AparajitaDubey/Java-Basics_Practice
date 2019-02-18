@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter String : ");
+		String s = in.next();
+		
+		int len = s.length()/2;
+				
+		System.out.println(len);
+		
+		for (int i = 0, j = len -1 ; i<len/2; i++, j--) {
+			
+			System.out.print(s.charAt(i));
+			
+		}
+	}
+	
+}

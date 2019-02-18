@@ -1,0 +1,30 @@
+package arrays;
+
+import java.util.Scanner;
+
+public class ReverseArray {
+
+	public static void main(String[] args) {
+		
+//		Scanner in = new Scanner(System.in);
+//		System.out.println("Enter array : ");
+//		
+//		char arr = ("" + in).charAt(0);
+//		
+//		System.out.println(arr);
+		
+		char[] arr = {1,2,3,4};
+		
+		for(int i=arr.length; i>=0; i-- ) {
+				char reverse = arr[i];
+				
+				System.out.print(reverse);
+		}
+		
+		
+	
+		
+
+	}
+
+}

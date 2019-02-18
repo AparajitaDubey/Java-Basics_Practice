@@ -1,0 +1,38 @@
+package arrays;
+
+import java.util.Scanner;
+
+public class ReverseArray {
+
+	public static void main(String[] args) {
+		
+//		char[] arr = {'1','2','3','4'};
+//		int len = arr.length;
+//		
+//		for(int i=len-1; i>=0; i-- ) {
+//				
+//			System.out.println(arr[i]);
+		
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter size: ");
+		in.nextInt();
+		System.out.println("Enter integers : ");
+		
+		int x = in.nextInt();		
+		char[] A = ("" + x).toCharArray();
+		
+		for(int i=A.length-1; i>=0;i--) {
+			System.out.print(A[i]);
+			
+		}
+				
+				
+		}
+		
+		
+	
+		
+
+	}
+
+

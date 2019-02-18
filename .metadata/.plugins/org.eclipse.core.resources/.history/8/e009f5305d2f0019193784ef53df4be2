@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class FibonnaciSeries {
+
+	public static void main(String[] args) {
+		
+		Scanner in = new Scanner(System.in);
+		System.out.println(" Enter num ");
+		int num = in.nextInt();
+		 
+		int i = 0, j = 1;
+		
+		int fibNum = 1;
+		
+		System.out.println(j);
+		
+		while(fibNum!=num) {			
+			
+			int sum = i + j;
+			System.out.println(sum);
+			
+			int s = sum + j;
+			System.out.println( s);
+			
+			i = sum;
+			j = s;
+			
+			fibNum = j;					
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

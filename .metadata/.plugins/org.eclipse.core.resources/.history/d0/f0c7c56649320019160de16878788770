@@ -1,0 +1,19 @@
+
+public class CheckArmstrongNum {
+
+	public static void main(String[] args) {
+		
+		int num = 123;
+		char ch1 = ("" + num).charAt(0);
+		System.out.println(ch1);
+		char ch2 = ("" + num).charAt(1);
+		System.out.println(ch2);
+		char ch3 = ("" + num).charAt(2);
+		System.out.println(ch3);
+		
+		double result = Math.pow(ch1, 3) + Math.pow(ch2, 3) +Math.pow(ch3, 3);
+
+		System.out.println(result);
+	}
+
+}

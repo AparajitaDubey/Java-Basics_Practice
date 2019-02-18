@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		
+//		Scanner in = new Scanner(System.in);
+//		
+//		System.out.println("Enter Num: ");
+//		
+//		int num = in.nextInt();
+		
+		String s = "123";
+		
+		int numlength = s.length();
+		
+		for(int i = numlength; i <= numlength - 1 ; i-- ) {
+			
+			char expText = s.charAt(i);
+			
+			
+		}
+		
+		System.out.println(expText);
+		
+
+	}
+
+}

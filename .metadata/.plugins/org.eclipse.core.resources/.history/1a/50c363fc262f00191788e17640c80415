@@ -1,0 +1,17 @@
+
+public class ForLoopString {
+
+	public static void main(String[] args) {
+		
+		String s = "Aparajita";
+		
+		int len =s.length();
+		
+		for(int i=len; i>=1;i--) {
+			
+			System.out.println(s.charAt(i));
+			
+		}
+	}
+
+}
